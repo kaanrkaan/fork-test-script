@@ -28,7 +28,7 @@ if (thankYou.length === 1) {
             console.log('finish');
 
             var transactionId = $('.div-mes').children('p').children('span').text();   
-            window.location.replace = "http://127.0.0.1/test?tId=" + transactionId        
+            window.location.href = "http://127.0.0.1/test?tId=" + transactionId        
         } else {
             $('#redirect-timer').text(text - 1);
         }
