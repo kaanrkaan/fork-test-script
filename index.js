@@ -1,3 +1,4 @@
+$(function() {
 // Page has Manual Payment Option
 if ($('#customRadioManual').length === 1) {
 
@@ -32,3 +33,4 @@ if (thankYou.length === 1) {
         }
     }, 1000);
 }
+});
