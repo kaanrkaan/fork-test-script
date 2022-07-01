@@ -1,4 +1,5 @@
 $(function() {
+console.log('test');
 // Page has Manual Payment Option
 if ($('#customRadioManual').length === 1) {
 
